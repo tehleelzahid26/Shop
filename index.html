@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehleel Zahid | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        nav {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00f2fe;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #00f2fe;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Tehleel Zahid</h1>
+    <p>IT Diploma Student | Web Developer | C Programmer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am an IT Diploma student passionate about web development,
+            programming, and learning modern technologies. 
+            My goal is to become a skilled software developer.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="card">HTML & CSS</div>
+    <div class="card">C Programming</div>
+    <div class="card">JavaScript Basics</div>
+    <div class="card">Problem Solving</div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+        Student Registration Form Website
+    </div>
+    <div class="card">
+        Calculator using JavaScript
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+        <p>Email: your-email@gmail.com</p>
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Tehleel Zahid | All Rights Reserved</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Thank you for visiting my website!");
+    }
+</script>
+
+</body>
+</html>
